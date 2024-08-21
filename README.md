@@ -34,3 +34,13 @@ Resulting in:
 ╰── bar
     ╰── hi
 ```
+
+## Install
+
+- macOS: `brew install caarlos0/tap/mdtree`
+- nix: use [this NUR](https://github.com/caarlos0/nur)
+- others: download from the [latest release](https://github.com/caarlos0/mdtree/releases/latest)
+
+## License
+
+MIT
