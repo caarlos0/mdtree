@@ -1,0 +1,11 @@
+- tools
+  - shells
+    - bash
+    - zsh
+    - fish
+  - terminals
+    - kitty
+    - alacritty
+    - ghostty
+  - editors
+    - nvim
