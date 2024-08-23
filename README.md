@@ -2,6 +2,8 @@
 
 Convert markdown lists into ASCII trees.
 
+![screenshot](https://github.com/user-attachments/assets/e233ad76-2ee1-4395-a8be-88fabc551b67)
+
 For example, if you run:
 
 ```bash
