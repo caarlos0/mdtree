@@ -88,10 +88,10 @@ func buildTree(source []byte, node ast.Node, root string, enum tree.Enumerator) 
 		if node.Kind() == ast.KindListItem {
 			if node.LastChild().Kind() == ast.KindList {
 				subtree := buildTree(source, node.LastChild().FirstChild(), root, enum)
-				subtree.Root(string(node.FirstChild().Text(source)))
+				subtree.Root(string(node.FirstChild().Lines().Value(source)))
 				tree.Child(subtree)
 			} else {
-				tree.Child(string(node.FirstChild().Text(source)))
+				tree.Child(string(node.FirstChild().Lines().Value(source)))
 			}
 		}
 		node = node.NextSibling()
