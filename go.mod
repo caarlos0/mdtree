@@ -5,7 +5,7 @@ go 1.22.5
 require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/spf13/cobra v1.9.1
-	github.com/yuin/goldmark v1.7.8
+	github.com/yuin/goldmark v1.7.10
 )
 
 require (
