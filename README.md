@@ -7,7 +7,11 @@ Convert markdown lists into ASCII trees.
 For example, if you run:
 
 ```bash
-echo -e "- a\n- b\n - ba" | mdtree
+cat <<EOF | mdtree
+- a
+- b
+  - ba
+EOF
 ```
 
 It will output:
@@ -25,7 +29,11 @@ You can also customize the tree style with `--style`, and change the root
 element with `--root`, for example:
 
 ```bash
-$ echo -e "- foo\n- bar\n  - hi" | mdtree --root ⁜ --style rounded
+cat <<EOF | mdtree --root ⁜ --style rounded
+- foo
+- bar
+  - hi
+EOF
 ```
 
 Resulting in:
